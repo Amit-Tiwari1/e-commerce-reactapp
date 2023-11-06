@@ -6,6 +6,7 @@ import LoginSingup from "./Pages/LoginSingup";
 import Product from "./Pages/Product";
 import Shop from "./Pages/Shop";
 import ShopCategory from "./Pages/ShopCategory";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/cart" element={<Cards />} />
           <Route path="/login" element={<LoginSingup />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </h1>
   );
