@@ -14,6 +14,9 @@ const NewCollections = () => {
         }}
       >
         {new_collection.map((item, i) => {
+          {
+            /* console.log(item); */
+          }
           return (
             <Item
               key={i}
