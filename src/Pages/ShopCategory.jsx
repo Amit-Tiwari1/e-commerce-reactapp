@@ -18,8 +18,8 @@ const ShopCategory = (props) => {
           <span className="font-semibold ">Showing 1-12</span> out of 36 product
         </p>
         <div
-          className="px-2 py-5"
-          style={{ borderRadius: "40", border: "1px solid #888" }}
+          className="px-1 py-3"
+          style={{ borderRadius: "10px", border: "1px solid #888" }}
         >
           Sort by <img src={dropdown_icon} alt="" />
         </div>
