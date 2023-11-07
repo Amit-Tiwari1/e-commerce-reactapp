@@ -45,6 +45,12 @@ const ShopCategory = (props) => {
           }
         })}
       </div>
+      <div
+        className="flex justify-center items-center w-60 h-16 bg-[#ededed] text-[#787878] text-lg font-medium "
+        style={{ margin: "150px auto", borderRadius: "75px" }}
+      >
+        Explore More
+      </div>
     </div>
   );
 };
