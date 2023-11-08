@@ -4,7 +4,7 @@ const LoginSingup = () => {
   return (
     <div className="w-full h-[80vh] bg-[#fce3fe] pt-24 ">
       <div className="w-[580px] h-[600px] bg-white m-auto py-10 px-14">
-        <h1 className="mx-5">Signup</h1>
+        <h1 className="mx-5 text-base">Signup</h1>
         <div className="flex flex-col gap-[29px] mt-8">
           <input
             type="text"

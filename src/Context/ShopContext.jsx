@@ -5,6 +5,8 @@ export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
   const contextValue = { all_product };
+  // anyfunction can send
+  // or any variable can also send
 
   return (
     <ShopContext.Provider value={contextValue}>
